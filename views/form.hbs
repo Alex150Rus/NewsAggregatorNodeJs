@@ -1,0 +1,13 @@
+<form action="/" method="POST" style="display:flex; flex-direction:column; align-items:center;">
+  <label for="newsSource">Выберите источник новостей
+    <select name="src" id="newsSource">
+      <option value="https://www.rbc.ru/">rbc</option>
+      <option value="https://habr.com/ru/top/">habr</option>
+      <option value="https://www.championat.com/">championat</option>
+    </select>
+  </label>
+  <label for="newsQty" style="margin: 10px 0;">Сколько новостей выводить на странице?
+    <input id="newsQty" type="text" name='newsQtyInput'>
+  </label>
+  <button>Смотреть новости</button>
+</form>

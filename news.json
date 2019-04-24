@@ -1,0 +1,17 @@
+[
+  {
+    "src": "https://www.rbc.ru/",
+    "header": ".main__feed__link",
+    "content": ".article__text__overview"
+  },
+  {
+    "src": "https://habr.com/ru/top/",
+    "header": ".post__title_link",
+    "content": ".post__text"
+  },
+  {
+    "src": "https://www.championat.com/",
+    "header": ".article-preview__title",
+    "content": ".article-content"
+  }
+]

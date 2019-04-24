@@ -1,0 +1,31 @@
+{
+  "name": "newsaggregatornodejs",
+  "version": "1.0.0",
+  "description": "news aggregator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex150Rus/NewsAggregatorNodeJs.git"
+  },
+  "keywords": [
+    "news aggregator",
+    "Node.JS"
+  ],
+  "author": "Alex Medvedev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex150Rus/NewsAggregatorNodeJs/issues"
+  },
+  "homepage": "https://github.com/Alex150Rus/NewsAggregatorNodeJs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "consolidate": "^0.15.1",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2",
+    "request": "^2.88.0"
+  }
+}
